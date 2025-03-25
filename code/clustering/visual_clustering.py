@@ -12,7 +12,7 @@ import matplotlib
 matplotlib.use('TkAgg')  # Or 'Agg' if running in a script without GUI
 
 # Define image directory
-IMAGE_DIR = r"C:\Users\juliu\Documents\Coding Projects\Center for Digital Participation\toolify.ai_image_scraping\ai_website_images\normalized_working_dataset"
+IMAGE_DIR = "path_to_normalized_working_dataset"
 
 # Load pre-trained VGG16 model (without top layers)
 model = VGG16(weights='imagenet', include_top=False)
