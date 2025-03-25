@@ -7,8 +7,8 @@ from tqdm import tqdm  # For progress bar
 df = pd.read_csv('resources/test_for_domain_finder.csv', delimiter=';')
 
 # DeepSeek API configuration
-DEEPSEEK_API_KEY = 'sk-30ff469344d24ecdad5ef0a15b3eb878'  # Replace with your actual API key
-DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions'  # Correct endpoint
+DEEPSEEK_API_KEY = 'my API'  # Replace with your actual API key
+DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions'
 
 # Function to query DeepSeek API
 def query_deepseek(tool_name):
