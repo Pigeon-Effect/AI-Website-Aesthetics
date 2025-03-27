@@ -44,5 +44,5 @@ def count_magic_words(csv_path):
 
 
 if __name__ == "__main__":
-    input_csv = r"C:\Users\juliu\Documents\Coding Projects\Center for Digital Participation\toolify.ai_image_scraping\ai_website_images\cleaned_image_to_text_results.csv"
+    input_csv = r"cleaned_image_to_text_results.csv"
     count_magic_words(input_csv)
