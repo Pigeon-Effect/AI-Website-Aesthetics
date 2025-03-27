@@ -56,7 +56,7 @@ if __name__ == "__main__":
             df = pd.read_csv(csv_path, delimiter=';', encoding='utf-8')
 
     # Define the save folder for scrollshots
-    save_folder = r"C:\Users\juliu\Documents\Coding Projects\Center for Digital Participation\toolify.ai_image_scraping\ai_website_images\new_scrollshot_first_20_2"
+    save_folder = r"path_to_output_folder"
 
     # Define the starting index (e.g., 5858)
     start_index = 0
