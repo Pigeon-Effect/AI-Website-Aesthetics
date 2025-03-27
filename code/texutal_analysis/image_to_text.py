@@ -38,6 +38,6 @@ def process_images_to_csv(folder_path, output_csv_path, max_images=None):
 
 
 if __name__ == "__main__":
-    input_folder = r"C:\Users\juliu\Documents\Coding Projects\Center for Digital Participation\toolify.ai_image_scraping\ai_website_images\working_dataset"
-    output_csv = r"C:\Users\juliu\Documents\Coding Projects\Center for Digital Participation\toolify.ai_image_scraping\ai_website_images\image_to_text_results.csv"
+    input_folder = r"working_dataset"
+    output_csv = r"image_to_text_results.csv"
     process_images_to_csv(input_folder, output_csv, max_images=None)
