@@ -101,6 +101,6 @@ def display_color_histogram(hue_counter, save_path="color_histogram.svg"):
 
 # Main execution
 if __name__ == "__main__":
-    folder_path = r"C:\Users\juliu\Documents\Coding Projects\Center for Digital Participation\toolify.ai_image_scraping\ai_website_images\working_dataset"  # Replace with your folder path
+    folder_path = r"path_to_working_dataset"  # Replace with your folder path
     hue_counter = analyze_color_themes(folder_path, max_images=6318)  # Process only 10 images
     display_color_histogram(hue_counter, save_path="results/color_analysis/first_10_test_hue_dominance.svg")
