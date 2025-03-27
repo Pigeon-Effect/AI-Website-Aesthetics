@@ -62,6 +62,6 @@ def generate_word_cloud(text, output_path="word_cloud.svg"):
 
 # Main execution
 if __name__ == "__main__":
-    folder_path = r"C:\Users\juliu\Documents\Coding Projects\Center for Digital Participation\toolify.ai_image_scraping\ai_website_images\working_dataset"  # Replace with your folder path
+    folder_path = r"working_dataset"
     combined_text = analyze_text_from_images(folder_path, max_images=6318)  # Process only 10 images
     generate_word_cloud(combined_text, output_path="results/text_analysis/wordcloudfirst10.svg")  # Generate and save word cloud as SVG
